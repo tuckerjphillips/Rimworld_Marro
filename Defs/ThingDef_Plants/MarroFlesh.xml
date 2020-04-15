@@ -71,7 +71,7 @@
   </ThingDef>
   
    <ThingDef ParentName="CavePlantBase">
-    <defName>MarroShroom</defName>
+    <defName>Plant_MarroShroom</defName>
     <label>marroshroom</label>
     <description>This Mushroom is the main food source of Marro, and is produced by growing in caves, or other organic beings.</description>
     <statBases>
@@ -79,7 +79,7 @@
       <Nutrition>0.3</Nutrition>
     </statBases>
     <graphicData>
-      <texPath>Things/Plant/MarroShroom</texPath>
+      <texPath>Things/Plant/Marroshroom</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <selectable>true</selectable>
