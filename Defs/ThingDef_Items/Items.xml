@@ -42,4 +42,24 @@
     </stuffProps>
   </ThingDef>
   
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>MarroShroom</defName>
+    <label>raw MarroShroom</label>
+    <description>Raw fungus.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MarroShroom</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>24</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
 </Defs>
