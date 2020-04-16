@@ -374,13 +374,14 @@
 					</li>
 				</bodyAddons>
 				<aliencrowntypes>
-					<li>Average_Normal</li>
+					<li>Overlord1</li>
+					<li>Overlord2</li>
 				</aliencrowntypes>
             </alienPartGenerator>
         </generalSettings>
         <graphicPaths>
 			<li>
-				<head>Things/Marro/</head>
+				<head>Things/Overlord/</head>
 				<body>Things/Overlord/</body>
 			</li>
         </graphicPaths>
