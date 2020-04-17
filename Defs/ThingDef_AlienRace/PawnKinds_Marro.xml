@@ -159,6 +159,10 @@
 			<li>Poor</li>
 		</techHediffsTags>
 		<techHediffsChance>0.00</techHediffsChance>		
+		<apparelTags>
+		  <li>OverlordApparel</li>
+		</apparelTags>
+		<apparelMoney>0~1000</apparelMoney>
 	</PawnKindDef>	
 	
 	
