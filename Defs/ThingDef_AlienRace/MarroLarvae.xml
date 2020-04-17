@@ -33,6 +33,9 @@
 				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
 			</li>
 	</comps>
+    <thingCategories>
+      <li>MarroLarvae</li>
+    </thingCategories>
 </ThingDef>
   
   

@@ -54,6 +54,9 @@
         </disallowedThingDefs>
       </defaultIngredientFilter>
     </recipeMaker>
+	<thingCategories>
+      <li>MarroApparel</li>
+    </thingCategories>
   </ThingDef>
 
 
@@ -67,9 +70,6 @@
       <drawSize>0.90</drawSize>
     </graphicData>
     <techLevel>Neolithic</techLevel>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
     <costList>
       <MarroFlesh>80</MarroFlesh>
     </costList>
@@ -103,6 +103,9 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+	<thingCategories>
+      <li>MarroApparel</li>
+    </thingCategories>
   </ThingDef>
   
   

@@ -10,9 +10,6 @@
       <Flammability>0.2</Flammability>
       <MarketValue>4</MarketValue>
     </statBases>
-    <thingCategories>
-      <li>Items</li>
-    </thingCategories>
     <burnableByRecipe>true</burnableByRecipe>
     <healthAffectsPrice>false</healthAffectsPrice>
     <stuffProps>
@@ -40,6 +37,9 @@
         <Beauty>.1</Beauty>
       </statFactors>
     </stuffProps>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
   </ThingDef>
   
   <ThingDef ParentName="PlantFoodRawBase">
@@ -47,7 +47,7 @@
     <label>raw MarroShroom</label>
     <description>Raw fungus.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Marroshroom</texPath>
+      <texPath>Things/Plant/Marroshroom/Marroshroom</texPath>
     </graphicData>
     <statBases>
       <MarketValue>2</MarketValue>
