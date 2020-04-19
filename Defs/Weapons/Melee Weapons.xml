@@ -83,7 +83,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>16</power>
+        <power>14</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -91,7 +91,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>20</power>
+        <power>16</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
@@ -128,9 +128,9 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>17</power>
+        <power>8</power>
         <armorPenetration>0.50</armorPenetration>
-        <cooldownTime>1.5</cooldownTime>
+        <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
 	<costList>
@@ -177,7 +177,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>23</power>
+        <power>15</power>
         <cooldownTime>2.6</cooldownTime>
       </li>
       <li>
@@ -185,7 +185,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>30</power>
+        <power>18</power>
         <cooldownTime>2.9</cooldownTime>
       </li>
     </tools>
@@ -234,7 +234,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>20</power>
+        <power>12</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -242,7 +242,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>30</power>
+        <power>16</power>
         <cooldownTime>2.6</cooldownTime>
       </li>
       <li>
@@ -250,7 +250,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>40</power>
+        <power>18</power>
         <cooldownTime>2.9</cooldownTime>
       </li>
     </tools>
