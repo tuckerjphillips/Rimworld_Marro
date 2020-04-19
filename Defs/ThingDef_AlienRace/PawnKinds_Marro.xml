@@ -103,7 +103,11 @@
 	<PawnKindDef>
 		<defName>Marro_Warrior</defName>
 		<race>Marro_Warrior</race>
+<<<<<<< HEAD
 		<combatPower>75</combatPower>
+=======
+		<combatPower>50</combatPower>
+>>>>>>> 670082e13c281d7402858dbe363f42d1e601d3ed
 		<label>Warrior</label>
 		<backstoryFiltersOverride>
 		  <li>
@@ -134,7 +138,11 @@
 	<PawnKindDef>
 		<defName>Marro_Overlord</defName>
 		<race>Marro_Overlord</race>
+<<<<<<< HEAD
 		<combatPower>85</combatPower>
+=======
+		<combatPower>60</combatPower>
+>>>>>>> 670082e13c281d7402858dbe363f42d1e601d3ed
 		<label>Overlord</label>
 		<backstoryFiltersOverride>
 		  <li>
@@ -169,7 +177,11 @@
 	<PawnKindDef>
 		<defName>Marro_Hivelord</defName>
 		<race>Marro_Hivelord</race>
+<<<<<<< HEAD
 		<combatPower>85</combatPower>
+=======
+		<combatPower>65</combatPower>
+>>>>>>> 670082e13c281d7402858dbe363f42d1e601d3ed
 		<label>Hivelord</label>
 		<backstoryFiltersOverride>
 		  <li>
@@ -200,7 +212,11 @@
 	<PawnKindDef>
 		<defName>Marro_Drone</defName>
 		<race>Marro_Drone</race>
+<<<<<<< HEAD
 		<combatPower>55</combatPower>
+=======
+		<combatPower>40</combatPower>
+>>>>>>> 670082e13c281d7402858dbe363f42d1e601d3ed
 		<label>Drone</label>
 		<backstoryFiltersOverride>
 		  <li>
