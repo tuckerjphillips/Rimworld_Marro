@@ -3,16 +3,19 @@
 
 
 
-  <ThingDef ParentName="ArmorSmithableBase">
+  <ThingDef ParentName="ApparelBase">
     <defName>MarroApparel_OverlordArmor</defName>
     <label>overlord armor</label>
     <description>Metal that overlords can integrate into themselves to become more armored. It may not look like much but much of the reinforcement happens in the bones.</description>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <researchPrerequisite>PlateArmor</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
+      <recipeUsers>
+        <li>BioForge</li>
+      </recipeUsers>
+      <researchPrerequisite>MarroApparel</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Overlord/Overlord_Armor</texPath>

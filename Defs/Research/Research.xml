@@ -42,7 +42,7 @@
     </prerequisites>
     
 		<researchViewX>0</researchViewX>
-		<researchViewY>3</researchViewY>
+		<researchViewY>4</researchViewY>
   </ResearchProjectDef>  
   
   
@@ -58,7 +58,7 @@
     </prerequisites>
     
 		<researchViewX>1</researchViewX>
-		<researchViewY>3</researchViewY>
+		<researchViewY>4</researchViewY>
   </ResearchProjectDef>  
   
     <ResearchProjectDef>
@@ -73,7 +73,7 @@
     </prerequisites>
     
 		<researchViewX>2</researchViewX>
-		<researchViewY>3</researchViewY>
+		<researchViewY>4</researchViewY>
   </ResearchProjectDef>  
   
   
@@ -89,7 +89,7 @@
     </prerequisites>
     
 		<researchViewX>3</researchViewX>
-		<researchViewY>3</researchViewY>
+		<researchViewY>4</researchViewY>
   </ResearchProjectDef>  
   
   
@@ -154,7 +154,23 @@
     
 		<researchViewX>2</researchViewX>
 		<researchViewY>2</researchViewY>
-  </ResearchProjectDef>     
+  </ResearchProjectDef>    
+
+
+  <ResearchProjectDef>
+    <defName>MarroApparel</defName>
+    <label>Marro Adaptions</label>
+    <tab>MarroResearch</tab>
+    <techLevel>Neolithic</techLevel>
+    <description>This research unlocks the basic ranged weapons for the Marro.</description>
+    <baseCost>800</baseCost>
+    <prerequisites>
+      <li>Bioforge</li>
+    </prerequisites>
+    
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+  </ResearchProjectDef>      
     
 	
   <ResearchProjectDef>
@@ -169,7 +185,7 @@
     </prerequisites>
     
 		<researchViewX>1</researchViewX>
-		<researchViewY>4</researchViewY>
+		<researchViewY>5</researchViewY>
   </ResearchProjectDef>  
   
   

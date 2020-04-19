@@ -73,7 +73,7 @@
 			<humanRecipeImport>true</humanRecipeImport>
             <alienPartGenerator>
 				<alienbodytypes>
-					<li>Male</li>
+					<li>Warrior</li>
 				</alienbodytypes>
 				<useGenderedHeads>true</useGenderedHeads>
 				<useGenderedBodies>false</useGenderedBodies>
@@ -97,6 +97,7 @@
 						  <south>
 								<bodyTypes>
 									<Male>(-0.41, .25)</Male>
+									<Warrior>(-0.41, .25)</Warrior>
 									<Female>(0, 0)</Female>
 									<Thin>(0, 0)</Thin>
 									<Hulk>(0, 0)</Hulk>
@@ -105,6 +106,7 @@
 						  <north>
 								<bodyTypes>
 									<Male>(0.0, 0.56)</Male>
+									<Warrior>(0.0, 0.56)</Warrior>
 									<Female>(0.0, 0.0)</Female>
 									<Thin>(0.0, 0.0)</Thin>
 									<Hulk>(0.006, -0.25)</Hulk>
@@ -113,6 +115,7 @@
 						  <east>
 								<bodyTypes>
 									<Male>(-0.4, 0.2)</Male>
+									<Warrior>(-0.4, 0.2)</Warrior>
 									<Female>(0.07, 0)</Female>
 									<Thin>(0, 0)</Thin>
 									<Hulk>(0.19, -0.07)</Hulk>
@@ -122,7 +125,7 @@
 					</li>
 				</bodyAddons>
 				<aliencrowntypes>
-					<li>Average_Normal</li>
+					<li>Warrior1</li>
 				</aliencrowntypes>
 
             </alienPartGenerator>
@@ -431,6 +434,7 @@
             <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 			<apparelList>
 				<li>MarroApparel_OverlordArmor</li>
+				<li>MarroApparel_Snowsuit</li>
 			</apparelList>
         </raceRestriction>
     </alienRace>
@@ -579,7 +583,7 @@
 			<humanRecipeImport>true</humanRecipeImport>
             <alienPartGenerator>
 				<alienbodytypes>
-					<li>Male</li>
+					<li>Drone</li>
 				</alienbodytypes>
 				<customDrawSize>(1.1,1.1)</customDrawSize>
 				<useGenderedHeads>true</useGenderedHeads>
@@ -595,8 +599,8 @@
 				<bodyAddons>
 				</bodyAddons>
 				<aliencrowntypes>
-					<li>Average_Normal</li>
-					<li>Narrow_Normal</li>
+					<li>Drone1</li>
+					<li>Drone2</li>
 				</aliencrowntypes>
             </alienPartGenerator>
         </generalSettings>
@@ -647,6 +651,10 @@
         </relationSettings>
         <raceRestriction>
             <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+			<apparelList>
+				<li>MarroApparel_Snowsuit</li>
+			</apparelList>
+			
         </raceRestriction>
     </alienRace>
 	<statBases>
@@ -796,7 +804,7 @@
 			<humanRecipeImport>true</humanRecipeImport>
             <alienPartGenerator>
 				<alienbodytypes>
-					<li>Hulk</li>
+					<li>Hivelord</li>
 				</alienbodytypes>
 				<customDrawSize>(1.1,1.1)</customDrawSize>
 				<useGenderedHeads>true</useGenderedHeads>
@@ -812,8 +820,8 @@
 				<bodyAddons>
 				</bodyAddons>
 				<aliencrowntypes>
-					<li>Average_Normal</li>
-					<li>Average_Pointy</li>
+					<li>Hivelord3</li>
+					<li>Hivelord2</li>
 				</aliencrowntypes>
             </alienPartGenerator>
         </generalSettings>

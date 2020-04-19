@@ -60,12 +60,12 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="ApparelMakeableBase">
+  <ThingDef ParentName="MarroApparelMakeableBase">
     <defName>MarroApparel_Snowsuit</defName>
     <label>Snow Suit</label>
     <description>The Marro can take this mass and take it into their body to adapt to lower temperatures.</description>
     <graphicData>
-      <texPath>Things/Warrior/SnowWarrior_Male_south</texPath>
+      <texPath>Things/Apparel/SnowSuit/SnowSuit_Warrior_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.90</drawSize>
     </graphicData>
@@ -83,6 +83,9 @@
       <Insulation_Heat>4</Insulation_Heat>
       <EquipDelay>8</EquipDelay>
     </statBases>
+	<recipeMaker>
+      <researchPrerequisite>MarroApparel</researchPrerequisite>	
+	</recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -90,7 +93,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Warrior/SnowWarrior</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/SnowSuit/SnowSuit</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -101,11 +104,9 @@
       <defaultOutfitTags>
         <li>Worker</li>
         <li>Soldier</li>
+		<li>OverlordApparel</li>
       </defaultOutfitTags>
     </apparel>
-	<thingCategories>
-      <li>MarroApparel</li>
-    </thingCategories>
   </ThingDef>
   
   
