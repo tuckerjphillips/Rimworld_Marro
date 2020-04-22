@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+
+
+
+
+  <ThingDef Name="MarroBodyPartBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isTechHediff>false</isTechHediff>
+    <pathCost>10</pathCost>    
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <Beauty>-4</Beauty>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Mass>1</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+
+
+  <ThingDef Name="MarroBodyPartProstheticBase" ParentName="MarroBodyPartBase" Abstract="True">
+    <techLevel>Neolithic</techLevel>
+    <thingCategories>
+      <li>BodyPartsProsthetic</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(154,124,104)</color>
+    </graphicData>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+    </statBases>
+  </ThingDef>
+
+
+
+
+
   <HediffDef ParentName="ImplantHediffBase">
     <defName>BerserkerMindWorm</defName>
     <label>berserker mind worm</label>
@@ -15,14 +62,28 @@
     <spawnThingOnRemoved>BerserkerMindworm</spawnThingOnRemoved>
   </HediffDef>
 
-  <ThingDef ParentName="BodyPartProstheticBase">
+  <ThingDef ParentName="MarroBodyPartProstheticBase">
+    <costList>
+      <MarroFlesh>40</MarroFlesh>
+    </costList>
+     <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>BioFabricator</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+      <researchPrerequisite>MarroMedical</researchPrerequisite>
+    </recipeMaker>
     <defName>BerserkerMindworm</defName>
     <label>berserker mind worm</label>
     <description>A brain implant which inhibits nociception, or pain sensation. While it does allow the user to accomplish more, it turns out pain has a purpose. When you don't feel it, you can get hurt really bad really easily.</description>
     <descriptionHyperlinks><RecipeDef>ImplantBerserkerWorm</RecipeDef></descriptionHyperlinks>
-    <costList>
-      <MarroFlesh>20</MarroFlesh>
-    </costList>
     <techHediffsTags>
       <li>Neolithic</li>
     </techHediffsTags>
@@ -97,14 +158,28 @@
     <spawnThingOnRemoved>FungalGrowth</spawnThingOnRemoved>
   </HediffDef>
 
-  <ThingDef ParentName="BodyPartProstheticBase">
+  <ThingDef ParentName="MarroBodyPartProstheticBase">
     <defName>FungalGrowth</defName>
+    <costList>
+      <MarroFlesh>40</MarroFlesh>
+    </costList>
+     <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>BioFabricator</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+      <researchPrerequisite>MarroMedical</researchPrerequisite>
+    </recipeMaker>
     <label>fungal growth</label>
     <description>This Growth can be implanted into a person to grow more MarroFlesh. The process is extremly painful for the victim.</description>
     <descriptionHyperlinks><RecipeDef>ImplantBerserkerWorm</RecipeDef></descriptionHyperlinks>
-    <costList>
-      <MarroFlesh>20</MarroFlesh>
-    </costList>
     <techHediffsTags>
       <li>Neolithic</li>
     </techHediffsTags>
