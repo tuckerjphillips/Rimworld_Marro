@@ -14,6 +14,18 @@
   </ResearchProjectDef>
   
   
+   <ResearchProjectDef>
+    <defName>MarroStructures</defName>
+    <label>marro structure</label>
+    <tab>MarroResearch</tab>
+    <techLevel>Neolithic</techLevel>
+    <description>This research unlocks basic marro structures.</description>
+    <baseCost>200</baseCost>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  
     <ResearchProjectDef>
     <defName>MarroFurniture</defName>
     <label>marro furniture</label>

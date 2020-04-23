@@ -22,12 +22,12 @@
   
   
     <ThingDef ParentName="MarroBuildingBase1" Name="BedBaseMarro" Abstract="True">
+     <stuffCategories>
+      <li>Marroflesh</li>
+    </stuffCategories>
     <altitudeLayer>Building</altitudeLayer>
     <drawGUIOverlay>true</drawGUIOverlay>
     <canOverlapZones>false</canOverlapZones>
-    <placeWorkers>
-      <li>PlaceWorker_ShowFacilitiesConnections</li>
-    </placeWorkers>
     <passability>PassThroughOnly</passability>
     <defaultPlacingRot>South</defaultPlacingRot>
 	<designationCategory>Furniture</designationCategory>
@@ -39,6 +39,7 @@
   
   
     <ThingDef ParentName="BedBaseMarro">
+    <costStuffCount>5</costStuffCount>
     <defName>BedMarro</defName>
     <label>Organic Bed</label>
     <description>A bed made of MarroFlesh.</description>
@@ -58,10 +59,10 @@
       <BedRestEffectiveness>0.9</BedRestEffectiveness>
       <Comfort>0.75</Comfort>
       <ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
-			<SurgerySuccessChanceFactor>0.1</SurgerySuccessChanceFactor>
+	  <SurgerySuccessChanceFactor>0.75</SurgerySuccessChanceFactor>
     </statBases>
 	<scatterableOnMapGen>false</scatterableOnMapGen>
-	<size>(2,2)</size>
+	<size>(1,2)</size>
     <designationCategory>Furniture</designationCategory>
     <passability>Standable</passability>
     <drawGUIOverlay>True</drawGUIOverlay>
@@ -77,7 +78,6 @@
         <compClass>CompAssignableToPawn_Bed</compClass>
       </li>
     </comps>
-	<constructEffect>ConstructDirt</constructEffect>
     <pathCost>60</pathCost>
     <castEdgeShadows>False</castEdgeShadows>
 	<designationHotKey>Misc2</designationHotKey>

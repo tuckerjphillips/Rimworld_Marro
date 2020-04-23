@@ -36,6 +36,9 @@
       <statFactors>
         <Beauty>.1</Beauty>
       </statFactors>
+		<categories>
+			<li>Marroflesh</li>
+		</categories>
     </stuffProps>
     <thingCategories>
       <li>ResourcesRaw</li>
