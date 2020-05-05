@@ -50,7 +50,7 @@
     <label>raw MarroShroom</label>
     <description>Raw fungus.</description>
     <graphicData>
-      <texPath>Things/Plant/Marroshroom/Marroshroom</texPath>
+      <texPath>Things/Plant/Marroshroom/MarroshroomItem</texPath>
     </graphicData>
     <statBases>
       <MarketValue>2</MarketValue>

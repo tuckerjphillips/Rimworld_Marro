@@ -35,6 +35,20 @@
       <visualSizeRange>0.3~1.0</visualSizeRange>
       <wildOrder>2</wildOrder>
     </plant>
+		<comps>
+			<li Class="ExpandablePlants.CompProperties_Plant">
+				<minLeaflessTemperature>0</minLeaflessTemperature>
+				<maxLeaflessTemperature>3</maxLeaflessTemperature>
+				<minGrowthTemperature>20</minGrowthTemperature>
+				<minOptimalGrowthTemperature>25</minOptimalGrowthTemperature>
+					<!-- The range between these two values is the temperature range at which the plant will grow optimally. -->
+				<maxOptimalGrowthTemperature>55</maxOptimalGrowthTemperature>
+				<maxGrowthTemperature>60</maxGrowthTemperature>
+				<!-- <restBegins>0.8</restBegins> When the plant will start to rest, expressed as a percentage of the day from midnight. -->
+				<!-- <restEnds>0.25</restEnds> When the plant will stop resting, expressed as a percentage of the day from midnight. -->
+					<!-- If these two times are equal, the plant will not rest. -->
+			</li>
+		</comps>
   </ThingDef>
   
   <ThingDef ParentName="CavePlantBase">
@@ -68,6 +82,20 @@
 	  <blockAdjacentSow>true</blockAdjacentSow>
       <visualSizeRange>1.3~1.8</visualSizeRange>
     </plant>
+		<comps>
+			<li Class="ExpandablePlants.CompProperties_Plant">
+				<minLeaflessTemperature>0</minLeaflessTemperature>
+				<maxLeaflessTemperature>3</maxLeaflessTemperature>
+				<minGrowthTemperature>20</minGrowthTemperature>
+				<minOptimalGrowthTemperature>25</minOptimalGrowthTemperature>
+					<!-- The range between these two values is the temperature range at which the plant will grow optimally. -->
+				<maxOptimalGrowthTemperature>55</maxOptimalGrowthTemperature>
+				<maxGrowthTemperature>60</maxGrowthTemperature>
+				<!-- <restBegins>0.8</restBegins> When the plant will start to rest, expressed as a percentage of the day from midnight. -->
+				<!-- <restEnds>0.25</restEnds> When the plant will stop resting, expressed as a percentage of the day from midnight. -->
+					<!-- If these two times are equal, the plant will not rest. -->
+			</li>
+		</comps>
   </ThingDef>
   
    <ThingDef ParentName="CavePlantBase">
@@ -104,5 +132,19 @@
       <visualSizeRange>0.3~1.0</visualSizeRange>
       <wildOrder>2</wildOrder>
     </plant>
+		<comps>
+			<li Class="ExpandablePlants.CompProperties_Plant">
+				<minLeaflessTemperature>0</minLeaflessTemperature>
+				<maxLeaflessTemperature>3</maxLeaflessTemperature>
+				<minGrowthTemperature>20</minGrowthTemperature>
+				<minOptimalGrowthTemperature>25</minOptimalGrowthTemperature>
+					<!-- The range between these two values is the temperature range at which the plant will grow optimally. -->
+				<maxOptimalGrowthTemperature>55</maxOptimalGrowthTemperature>
+				<maxGrowthTemperature>60</maxGrowthTemperature>
+				<!-- <restBegins>0.8</restBegins> When the plant will start to rest, expressed as a percentage of the day from midnight. -->
+				<!-- <restEnds>0.25</restEnds> When the plant will stop resting, expressed as a percentage of the day from midnight. -->
+					<!-- If these two times are equal, the plant will not rest. -->
+			</li>
+		</comps>
   </ThingDef>
 </Defs>
