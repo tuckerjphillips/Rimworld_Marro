@@ -69,6 +69,45 @@
     <alienRace>
         <generalSettings>
 			<maleGenderProbability>1</maleGenderProbability>
+		<disallowedTraits>
+			<li>DrugDesire</li>
+                    	<li>NaturalMood</li>
+			<li>Nervous</li>
+                   	<li>Volatile</li>
+			<li>Neurotic</li>
+                    	<li>lazy</li>
+                    	<li>slothful</li>
+			<li>PsychicSensitivity</li>
+                   	<li>Beauty</li>
+			<li>Nudist</li>
+                    	<li>Kind</li>
+		 	<li>Greedy</li>
+			<li>Jealous</li>
+			<li>Gay</li>
+			<li>Bisexual</li>
+			<li>Asexual</li>
+			<li>AnnoyingVoice</li>
+			<li>CreepyBreathing</li>
+			<li>Pyromaniac</li>
+			<li>Wimp</li>
+			<li>Transhumanist</li>
+			<li>BodyPurist</li>
+			<li>DislikesMen</li>
+			<li>DislikesWomen</li>
+                    	<li>TorturedArtist</li>
+                    	<li>Gourmand</li>
+		</disallowedTraits>
+		<forcedRaceTraitEntries>
+                <li>
+                    <defname>Psychopath</defname>
+                </li>
+                <li>
+                    <defname>Cannibal</defname>
+                </li>
+		<li>
+                    <defname>Tough</defname>
+                </li>
+            </forcedRaceTraitEntries>
 			<allowHumanBios>false</allowHumanBios>
 			<humanRecipeImport>true</humanRecipeImport>
             <alienPartGenerator>
